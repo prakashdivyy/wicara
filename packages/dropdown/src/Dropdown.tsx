@@ -90,7 +90,7 @@ class Dropdown extends React.Component<DropdownProps> {
   }
 
   render() {
-    const { className, children, block, direction, disabled, ...props } = omit(
+    const { className, children, direction, disabled, ...props } = omit(
       this.props,
       ['isOpen']
     );

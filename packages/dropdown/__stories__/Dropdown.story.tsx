@@ -53,6 +53,7 @@ story.add(
     >
       {({ values, selected }, { setState }) => (
         <DropdownSelector
+          block
           value={selected}
           onSelect={value => setState({ selected: value })}
         >
